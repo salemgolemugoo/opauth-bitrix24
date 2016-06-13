@@ -1,0 +1,23 @@
+{
+    "name": "salemgolemugoo/opauth-bitrix24",
+    "description": "Bitrix24 strategy for Opauth",
+    "keywords": ["authentication","auth","opauth","bitrix24"],
+    "homepage": "http://fleepix.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marat Salimzianov",
+            "email": "salem@fleepix.com",
+            "homepage": "http://fleepix.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.2.0",
+        "opauth/opauth": ">=0.2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "."
+        }
+    }
+}
