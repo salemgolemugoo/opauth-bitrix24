@@ -1,9 +1,5 @@
 <?php
 
-namespace Fleepix\OpauthStrategy;
-
-use OpauthStrategy;
-
 class Bitrix24Strategy extends OpauthStrategy
 {
     public $expects = array('app_id', 'app_secret', 'domain');
